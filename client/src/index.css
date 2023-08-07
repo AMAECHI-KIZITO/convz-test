@@ -1,0 +1,53 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: '#d9d9d9'
+}
+.brandName {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #FBF8EE;
+}
+
+#nav_links{
+    text-align:center;
+}
+
+#nav_links li{
+    display:inline-block;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    line-height: 10px;
+    margin:5px;
+}
+
+#homeBanner #FAQ{
+    background-color: #FBFEFB;
+}
+
+#whyHeadsUp{
+    background-color: #EFE5DC;
+}
+
+#whyUseHeadsUp{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif ;
+}
+
+footer{
+    background-color: #15294B;
+    color: #ffffff;
+}
+
+footer .subHeads{
+    color:#F1963C;
+}
+
+
+
+/* Get clue and Get answers page */
+#getClueBanner, .getAnswers, .getConsultPage, .privacyPolicy, .disclaimer, .t_and_c{
+    background-color: #FFFFFA;
+    color: #22031F
+}

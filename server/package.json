@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A backend test submitted to Convz technical team",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js"
+  },
+  "author": "Tochukwu Amaechi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "is-url": "^1.2.4",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.5",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.6.9",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
